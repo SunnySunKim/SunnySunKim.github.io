@@ -2,7 +2,7 @@ let BASEDIR_CP4APP_INSTALL="/cloudpak/cp4app/install";
 
 module.exports = {
 	base: "/",
-	title: "Kubepia Documents",
+	title: "SunnySunKim Documents",
 	description: "Technical guidelines about kubernetes",
 	// dest: "./docs",
 	plugins: ["@vuepress/back-to-top"],
