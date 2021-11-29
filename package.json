@@ -1,28 +1,25 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "browser-sync": "^2.13.0",
-    "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-filter": "^4.0.0",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
-  }
+	"name": "kubepia-docs",
+	"version": "0.0.1",
+	"description": "documentation of kubepia assets",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"dev": "vuepress dev docs --no-cache",
+		"build": "vuepress build docs"
+	},
+	"author": "kube",
+	"license": "ISC",
+	"dependencies": {
+		"@vuepress/plugin-back-to-top": "^1.5.0",
+		"vuepress": "^1.5.0"
+	},
+	"resolutions": {
+		"watchpack": "1.6.1"
+	},
+	"devDependencies": {
+		"watchpack": "^1.6.1"
+	}
 }

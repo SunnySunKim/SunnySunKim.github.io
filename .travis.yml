@@ -1,0 +1,18 @@
+# travis는 git action으로 대체되어 더 이상 사용 안함
+language: node_js
+node_js:
+  - "12"
+install:
+  - npm install
+script:
+  - npm run build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GIT_TOKEN
+  #github_token: "f8654705fc9f235ae42e4f241130ff8e11a3b903"
+  local_dir: docs/.vuepress/dist
+  target-branch: master
+  on:
+    branch: dev
