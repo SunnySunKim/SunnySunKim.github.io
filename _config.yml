@@ -16,8 +16,7 @@ author: Sunny
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Sunny's Blog: "https://sunnysunkim.github.io/"
   Author's home: "https://sunnysunkim.github.io/"
 
 # --- Logo --- #
